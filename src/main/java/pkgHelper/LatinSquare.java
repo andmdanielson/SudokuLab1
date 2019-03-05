@@ -3,7 +3,7 @@ package pkgHelper;
 import java.util.Arrays;
 
 public class LatinSquare {
-	
+	// Group 20-2
 	private int[][] LatinSquare;
 	
 	public LatinSquare() {	

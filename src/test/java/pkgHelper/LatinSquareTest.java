@@ -6,11 +6,7 @@ import org.junit.Test;
 
 public class LatinSquareTest {
 
-	@Test
-	public void test() {
-		//fail("Not yet implemented");
-	}
-	
+	// Group 20-2
 	@Test
 	public void DoesElementExist_Test1() {
 		
@@ -96,7 +92,7 @@ public class LatinSquareTest {
 	@Test
 	public void hasDuplicates_Test2() {
 		
-		int[] array= {1,2,3,4,4};
+		int[] array= {1,4,3,2,4};
 		boolean expected=true;
 		boolean actual=LatinSquare.hasDuplicates(array);
 		
